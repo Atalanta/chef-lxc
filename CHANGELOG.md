@@ -6,6 +6,9 @@ This file is used to list changes made in each version of lxc.
 
 * Initial release of lxc
 
+## 0.2.0:
+
+* Add Test Kitchen and Berks
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
