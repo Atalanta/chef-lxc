@@ -1,7 +1,7 @@
 include_recipe "network"
 include_recipe "network::bridge"
 
-host_data = data_bag_item("lxc", "hostss")
+host_data = data_bag_item("lxc", "hosts")
 
 if node['lxc']['bridge'] = 'Automatic'
 
