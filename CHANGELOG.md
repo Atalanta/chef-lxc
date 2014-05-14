@@ -13,6 +13,12 @@ This file is used to list changes made in each version of lxc.
 ## 0.2.1:
 
 * Use RPMs instead of ark
+
+## 0.2.2:
+
+* Break out into components
+* Derive bridge config from databag
+
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
