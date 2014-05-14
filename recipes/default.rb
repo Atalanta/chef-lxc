@@ -22,7 +22,7 @@ package "libcap-devel"
 package "screen"
 
 ark "lxc" do
-  url "http://lxc.sourceforge.net/download/lxc/lxc-0.9.0.tar.gz"
+  url node['lxc']['src_url']
   action [:configure, :install_with_make]
 end
 
