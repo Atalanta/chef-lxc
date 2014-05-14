@@ -1,4 +1,4 @@
 include_recipe 'lxc::bridge'
 include_recipe 'lxc::install'
-include_recipe 'lxc::containers'
+#include_recipe 'lxc::containers'
 
