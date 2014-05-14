@@ -9,6 +9,10 @@ This file is used to list changes made in each version of lxc.
 ## 0.2.0:
 
 * Add Test Kitchen and Berks
+
+## 0.2.1:
+
+* Use RPMs instead of ark
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
