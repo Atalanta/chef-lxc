@@ -1,0 +1,8 @@
+#!/bin/bash
+rm -f $(find /var/run -name '*pid')
+rm -f /var/lock/subsys/*
+route add default gw <%= @gateway %>
+echo > /etc/resolv.conf search <%= @domain %>
+echo >> /etc/resolv.conf nameserver <%= @nameserver %>
+rm -f /etc/mtab
+touch /etc/mtab

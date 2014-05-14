@@ -1,0 +1,8 @@
+lxc.utsname = <%= @name %>
+lxc.network.type = veth
+lxc.network.flags = up
+lxc.network.link = br0
+lxc.network.ipv4 = <%= @ip %>
+lxc.network.name = eth0
+lxc.mount = <%= node['lxc']['container_path'] %>/<%= @name %>/fstab
+lxc.rootfs = <%= node['lxc']['container_path'] %>/<%= @name %>/rootfs
