@@ -3,7 +3,7 @@ include_recipe "network::bridge"
 
 host_data = data_bag_item("lxc", "hosts")
 
-if node['lxc']['bridge'] = 'Automatic'
+if host_data[node['hostname']]['dhcp']
 
   network_config "br0" do
     dhcp true
@@ -29,9 +29,10 @@ else
 
 end
 
-network_config host_data[node['hostname']['nic']] do
+network_config host_data[node['hostname']]['nic'] do
   onboot true
   bridge "br0"
   nm_controlled false
   action :create
 end
+
