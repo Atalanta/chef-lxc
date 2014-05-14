@@ -19,6 +19,10 @@ This file is used to list changes made in each version of lxc.
 * Break out into components
 * Derive bridge config from databag
 
+## 0.2.3:
+
+* Fix: dhcp logic and bridge config
+* Don't try to create containers yet
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
