@@ -33,7 +33,7 @@ else
     
   end
   
-  network_config host_data[node['hostname']['nic']] do
+  network_config host_data[node['hostname']]['nic'] do
     onboot true
     bridge "br0"
     nm_controlled false
