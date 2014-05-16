@@ -23,6 +23,10 @@ This file is used to list changes made in each version of lxc.
 
 * Fix: dhcp logic and bridge config
 * Don't try to create containers yet
+
+## 0.2.4:
+
+* Check for existence of host in databags
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
