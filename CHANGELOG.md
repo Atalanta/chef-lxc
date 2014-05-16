@@ -27,6 +27,10 @@ This file is used to list changes made in each version of lxc.
 ## 0.2.4:
 
 * Check for existence of host in databags
+
+## 0.2.5:
+
+* Bug fix
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
 
